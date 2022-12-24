@@ -3,3 +3,11 @@ const add = (num1: number, num2: number) => {
 }
 
 add(1, 2);
+
+const showItems = (arr: number[]) => {
+     arr.forEach(item => {
+          console.log(item)
+     })
+}
+
+showItems([1, 2, 3]);
